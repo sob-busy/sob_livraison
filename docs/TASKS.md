@@ -8,7 +8,7 @@ Règle : on ne passe à la tâche suivante que si la précédente fonctionne. Co
 - [x] Créer le dépôt GitHub et faire le premier push
 - [x] Installer les dépendances (next-intl, next-themes, framer-motion, lucide-react, react-hook-form, zod)
 - [x] Configurer les polices (Playfair Display + Inter) et les couleurs du thème
-- [ ] Créer `.env.example` et vérifier que `.env.local` est dans `.gitignore`
+- [x] Créer `.env.example` et vérifier que `.env.local` est dans `.gitignore`
 - [ ] Ajouter favicon et logo (provisoires)
 
 ## Phase 1 — Site public
