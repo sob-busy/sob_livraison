@@ -154,6 +154,248 @@
       "text": "Orders 7 days a week, any time, for immediate or scheduled delivery."
     }
   },
+  "FaqPage": {
+    "metaTitle": "Frequently asked questions",
+    "metaDescription": "Prices, delivery times, payment, service area: all the answers to your questions about Sob Livraison in Lomé.",
+    "title": "Frequently asked questions",
+    "intro": "Everything you need to know before ordering. Can't find your answer? Message us.",
+    "q1": {
+      "q": "How do I place an order?",
+      "a": "For now, message us on WhatsApp with the pick-up point, the drop-off point, the size of your item and the recipient's name and phone number. Online ordering is coming soon."
+    },
+    "q2": {
+      "q": "Which areas do you cover?",
+      "a": "We deliver across Greater Lomé. Beyond 30 km, ask us for a quote on WhatsApp."
+    },
+    "q3": {
+      "q": "How much does a delivery cost?",
+      "a": "The price depends on the road distance: 300 FCFA pick-up fee + 150 FCFA per kilometre, with a minimum of 500 FCFA. A surcharge applies to medium (+ 200 FCFA) and large (+ 500 FCFA) items. The total is rounded up to the next 100 FCFA."
+    },
+    "q4": {
+      "q": "How do I pay?",
+      "a": "Payment is cash only, on delivery. Mobile Money payment is not available yet."
+    },
+    "q5": {
+      "q": "How long does delivery take?",
+      "a": "For an immediate delivery, it usually takes 30 to 60 minutes, depending on distance."
+    },
+    "q6": {
+      "q": "Can I schedule a delivery?",
+      "a": "Yes. Choose the date and time, at least 1 hour ahead and up to 7 days."
+    },
+    "q7": {
+      "q": "When can I order?",
+      "a": "You can order 7 days a week, at any time."
+    },
+    "q8": {
+      "q": "Can I cancel my order?",
+      "a": "Yes, cancellation is free as long as the order has not yet been assigned to a courier."
+    },
+    "q9": {
+      "q": "Are there items you don't deliver?",
+      "a": "Yes: illegal, dangerous or flammable products, weapons, live animals and large sums of money."
+    },
+    "cta": {
+      "title": "Another question?",
+      "text": "Message us on WhatsApp, we reply quickly.",
+      "button": "Ask my question",
+      "whatsappMessage": "Hello Sob Livraison, I have a question: "
+    }
+  },
+  "NotFound": {
+    "title": "Page not found",
+    "text": "Oops, this page doesn't exist or has moved. Our courier couldn't find the address!",
+    "home": "Back to home",
+    "contact": "Contact us"
+  },
+  "LegalNotice": {
+    "title": "Legal notice",
+    "metaDescription": "Legal notice for the Sob Livraison website: publisher, host and contact.",
+    "updated": "Last updated: 25 September 2026",
+    "sections": [
+      {
+        "title": "Website publisher",
+        "paragraphs": [
+          "The Sob Livraison website is published by the operator of the Sob Livraison business, a sole trader based in Lomé (Togo).",
+          "The business is not yet registered with the Trade and Personal Property Credit Register (RCCM). This information will be completed once registered.",
+          "Phone and WhatsApp: {phone}",
+          "Email: {email}"
+        ]
+      },
+      {
+        "title": "Publication manager",
+        "paragraphs": [
+          "The publication manager is the operator of Sob Livraison, reachable at the contact details above."
+        ]
+      },
+      {
+        "title": "Hosting",
+        "paragraphs": [
+          "The website is hosted by Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, United States (vercel.com)."
+        ]
+      },
+      {
+        "title": "Intellectual property",
+        "paragraphs": [
+          "The texts, logos and graphics on this website belong to Sob Livraison. Any reproduction without written permission is prohibited."
+        ]
+      },
+      {
+        "title": "Liability",
+        "paragraphs": [
+          "Sob Livraison strives to provide accurate and up-to-date information. Prices shown on the website are for guidance only: the applicable price is the one given when you order."
+        ]
+      }
+    ]
+  },
+  "Privacy": {
+    "title": "Privacy policy",
+    "metaDescription": "How Sob Livraison collects, uses and protects your personal data.",
+    "updated": "Last updated: 25 September 2026",
+    "sections": [
+      {
+        "title": "Who we are",
+        "paragraphs": [
+          "Sob Livraison is a delivery service in Lomé (Togo). We are responsible for the personal data collected through this website and our contact channels.",
+          "For any question about your data: {email} or {phone}."
+        ]
+      },
+      {
+        "title": "Data we collect",
+        "paragraphs": [
+          "When you contact us (WhatsApp, phone, email): your name, phone number and the content of your messages.",
+          "When you place an order: pick-up and drop-off addresses and locations, the recipient's name and phone number, and a description of the item.",
+          "When you create an account (coming soon): your name, phone number, email and password (stored encrypted).",
+          "When you visit: anonymous traffic statistics (Vercel Analytics), with no advertising cookies."
+        ]
+      },
+      {
+        "title": "Why we use your data",
+        "paragraphs": [
+          "To process and deliver your orders, contact you about a delivery, answer your questions and improve our service.",
+          "We never sell your data and never use it for advertising."
+        ]
+      },
+      {
+        "title": "Who can access it",
+        "paragraphs": [
+          "The Sob Livraison team and the courier handling your delivery, who only receives the information needed for the delivery.",
+          "Our technical providers, only to run the service: the website host (Vercel), the database (Supabase, once accounts are available) and WhatsApp (Meta) when you message us there."
+        ]
+      },
+      {
+        "title": "How long we keep it",
+        "paragraphs": [
+          "Order data is kept for 3 years after your last order, then deleted.",
+          "Contact messages are kept for 1 year."
+        ]
+      },
+      {
+        "title": "Your rights",
+        "paragraphs": [
+          "Under Togolese Law No. 2019-014 of 29 October 2019 on the protection of personal data, you can ask to access, correct or delete your data, and object to its use.",
+          "To exercise these rights, email us at {email}. You can also contact the Personal Data Protection Authority (IPDCP)."
+        ]
+      },
+      {
+        "title": "Security",
+        "paragraphs": [
+          "Your data is transmitted securely (HTTPS) and access is limited to the people who need it."
+        ]
+      },
+      {
+        "title": "Cookies and storage",
+        "paragraphs": [
+          "The website only stores what it needs to work: your language and your theme (light or dark). No advertising cookies are used."
+        ]
+      },
+      {
+        "title": "Changes",
+        "paragraphs": [
+          "This policy may change. The date of the last update is shown at the top of this page."
+        ]
+      }
+    ]
+  },
+  "Terms": {
+    "title": "Terms and conditions",
+    "metaDescription": "Terms of use and sale of the Sob Livraison delivery service in Lomé.",
+    "updated": "Last updated: 25 September 2026",
+    "sections": [
+      {
+        "title": "Purpose",
+        "paragraphs": [
+          "These terms govern the use of the Sob Livraison website and the sale of our delivery services. Placing an order means you accept them."
+        ]
+      },
+      {
+        "title": "Services",
+        "paragraphs": [
+          "Sob Livraison delivers parcels and documents, meals and groceries across Greater Lomé, immediately or at a scheduled time."
+        ]
+      },
+      {
+        "title": "Orders",
+        "paragraphs": [
+          "Orders are placed on WhatsApp, and soon directly on the website. You must provide accurate information: pick-up and drop-off points, item size, and the recipient's name and phone number.",
+          "An order is final once confirmed by Sob Livraison. A scheduled delivery must be requested at least 1 hour ahead, and up to 7 days."
+        ]
+      },
+      {
+        "title": "Prices",
+        "paragraphs": [
+          "The price is based on the road distance: a pick-up fee + a price per kilometre, with a minimum price and a surcharge depending on the item size. It is rounded up to the next 100 FCFA.",
+          "The price is given before the order is confirmed. Beyond 30 km, a specific quote is provided."
+        ]
+      },
+      {
+        "title": "Payment",
+        "paragraphs": [
+          "Payment is made in cash to the courier, on delivery.",
+          "For meals and groceries, you pay the seller for your purchases yourself, unless agreed otherwise with Sob Livraison."
+        ]
+      },
+      {
+        "title": "Delivery times",
+        "paragraphs": [
+          "Announced times (30 to 60 minutes on average for an immediate delivery) are estimates and may vary with traffic and weather."
+        ]
+      },
+      {
+        "title": "Cancellation",
+        "paragraphs": [
+          "Cancellation is free as long as the order has not been assigned to a courier. After that, contact us quickly and we will find a solution together."
+        ]
+      },
+      {
+        "title": "Your commitments",
+        "paragraphs": [
+          "You and the recipient must be reachable by phone during the delivery. Items must be properly packed.",
+          "You must not entrust Sob Livraison with illegal, dangerous or flammable products, weapons, live animals or large sums of money. Sob Livraison may refuse any non-compliant item."
+        ]
+      },
+      {
+        "title": "Liability",
+        "paragraphs": [
+          "Sob Livraison takes care of your items. If there is a problem (significant delay, damage or loss), contact us no later than 24 hours after the planned delivery: each case will be reviewed to find a solution.",
+          "Sob Livraison is not responsible for the content of items, nor for delays caused by events beyond its control (bad weather, closed roads, etc.)."
+        ]
+      },
+      {
+        "title": "Personal data",
+        "paragraphs": [
+          "Your data is processed in accordance with our privacy policy."
+        ]
+      },
+      {
+        "title": "Governing law",
+        "paragraphs": [
+          "These terms are governed by Togolese law. In case of dispute, we will first seek an amicable solution; failing that, the competent courts of Lomé will have jurisdiction.",
+          "Contact: {phone} — {email}"
+        ]
+      }
+    ]
+  },
   "ServicesPage": {
     "metaTitle": "Services and prices",
     "metaDescription": "Parcel, meal and grocery delivery in Lomé. Distance-based pricing: 300 FCFA pick-up fee + 150 FCFA per km, minimum 500 FCFA.",

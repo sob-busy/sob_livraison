@@ -154,6 +154,248 @@
       "text": "Commandes 7j/7, à toute heure, en livraison immédiate ou programmée."
     }
   },
+  "FaqPage": {
+    "metaTitle": "Questions fréquentes",
+    "metaDescription": "Prix, délais, paiement, zones de livraison : toutes les réponses à vos questions sur Sob Livraison à Lomé.",
+    "title": "Questions fréquentes",
+    "intro": "Tout ce qu'il faut savoir avant de commander. Vous ne trouvez pas votre réponse ? Écrivez-nous.",
+    "q1": {
+      "q": "Comment passer une commande ?",
+      "a": "Pour l'instant, écrivez-nous sur WhatsApp en indiquant le point de départ, le point d'arrivée, la taille de l'envoi et le nom et le téléphone du destinataire. La commande en ligne arrive bientôt."
+    },
+    "q2": {
+      "q": "Quelles zones couvrez-vous ?",
+      "a": "Nous livrons partout dans le Grand Lomé. Au-delà de 30 km, demandez-nous un devis sur WhatsApp."
+    },
+    "q3": {
+      "q": "Combien coûte une livraison ?",
+      "a": "Le prix dépend de la distance par la route : 300 FCFA de prise en charge + 150 FCFA par kilomètre, avec un minimum de 500 FCFA. Un supplément s'ajoute pour les envois moyens (+ 200 FCFA) et grands (+ 500 FCFA). Le total est arrondi à la centaine supérieure."
+    },
+    "q4": {
+      "q": "Comment dois-je payer ?",
+      "a": "Le paiement se fait uniquement en espèces, à la livraison. Le paiement par Mobile Money n'est pas encore disponible."
+    },
+    "q5": {
+      "q": "En combien de temps suis-je livré ?",
+      "a": "Pour une livraison immédiate, comptez en général 30 à 60 minutes, selon la distance."
+    },
+    "q6": {
+      "q": "Puis-je programmer une livraison ?",
+      "a": "Oui. Choisissez la date et l'heure, au moins 1 heure à l'avance et jusqu'à 7 jours."
+    },
+    "q7": {
+      "q": "Quand puis-je commander ?",
+      "a": "Vous pouvez commander 7 jours sur 7, à toute heure."
+    },
+    "q8": {
+      "q": "Puis-je annuler ma commande ?",
+      "a": "Oui, l'annulation est gratuite tant que la commande n'a pas encore été confiée à un livreur."
+    },
+    "q9": {
+      "q": "Y a-t-il des objets que vous ne livrez pas ?",
+      "a": "Oui : les produits illégaux, dangereux ou inflammables, les armes, les animaux vivants et les sommes d'argent importantes."
+    },
+    "cta": {
+      "title": "Une autre question ?",
+      "text": "Écrivez-nous sur WhatsApp, nous vous répondons rapidement.",
+      "button": "Poser ma question",
+      "whatsappMessage": "Bonjour Sob Livraison, j'ai une question : "
+    }
+  },
+  "NotFound": {
+    "title": "Page introuvable",
+    "text": "Oups, cette page n'existe pas ou a été déplacée. Notre livreur n'a pas trouvé l'adresse !",
+    "home": "Retour à l'accueil",
+    "contact": "Nous contacter"
+  },
+  "LegalNotice": {
+    "title": "Mentions légales",
+    "metaDescription": "Mentions légales du site Sob Livraison : éditeur, hébergeur et contact.",
+    "updated": "Dernière mise à jour : 25 septembre 2026",
+    "sections": [
+      {
+        "title": "Éditeur du site",
+        "paragraphs": [
+          "Le site Sob Livraison est édité par l'exploitant de l'activité Sob Livraison, entrepreneur individuel établi à Lomé (Togo).",
+          "L'activité n'est pas encore immatriculée au Registre du Commerce et du Crédit Mobilier (RCCM). Ces informations seront complétées dès l'immatriculation.",
+          "Téléphone et WhatsApp : {phone}",
+          "Email : {email}"
+        ]
+      },
+      {
+        "title": "Responsable de la publication",
+        "paragraphs": [
+          "Le responsable de la publication est l'exploitant de Sob Livraison, joignable aux coordonnées ci-dessus."
+        ]
+      },
+      {
+        "title": "Hébergement",
+        "paragraphs": [
+          "Le site est hébergé par Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis (vercel.com)."
+        ]
+      },
+      {
+        "title": "Propriété intellectuelle",
+        "paragraphs": [
+          "Les textes, logos et éléments graphiques de ce site appartiennent à Sob Livraison. Toute reproduction sans autorisation écrite est interdite."
+        ]
+      },
+      {
+        "title": "Responsabilité",
+        "paragraphs": [
+          "Sob Livraison s'efforce de fournir des informations exactes et à jour. Les tarifs affichés sur le site sont donnés à titre indicatif : le prix applicable est celui communiqué au moment de la commande."
+        ]
+      }
+    ]
+  },
+  "Privacy": {
+    "title": "Politique de confidentialité",
+    "metaDescription": "Comment Sob Livraison collecte, utilise et protège vos données personnelles.",
+    "updated": "Dernière mise à jour : 25 septembre 2026",
+    "sections": [
+      {
+        "title": "Qui sommes-nous ?",
+        "paragraphs": [
+          "Sob Livraison est un service de livraison à Lomé (Togo). Nous sommes responsables des données personnelles collectées via ce site et nos canaux de contact.",
+          "Pour toute question sur vos données : {email} ou {phone}."
+        ]
+      },
+      {
+        "title": "Données collectées",
+        "paragraphs": [
+          "Quand vous nous contactez (WhatsApp, téléphone, email) : votre nom, votre numéro de téléphone et le contenu de vos messages.",
+          "Quand vous passez une commande : les adresses et positions de départ et d'arrivée, le nom et le téléphone du destinataire, et la description de l'envoi.",
+          "Quand vous créerez un compte (bientôt disponible) : votre nom, votre téléphone, votre email et votre mot de passe (stocké de façon chiffrée).",
+          "Lors de votre visite : des statistiques de fréquentation anonymes (Vercel Analytics), sans cookie publicitaire."
+        ]
+      },
+      {
+        "title": "Pourquoi nous utilisons vos données",
+        "paragraphs": [
+          "Pour traiter et livrer vos commandes, vous contacter à propos d'une livraison, répondre à vos questions et améliorer notre service.",
+          "Nous ne vendons jamais vos données et ne les utilisons pas à des fins publicitaires."
+        ]
+      },
+      {
+        "title": "Qui peut y accéder",
+        "paragraphs": [
+          "L'équipe de Sob Livraison et le livreur chargé de votre course, qui ne reçoit que les informations nécessaires à la livraison.",
+          "Nos prestataires techniques, uniquement pour faire fonctionner le service : l'hébergeur du site (Vercel), la base de données (Supabase, quand les comptes seront disponibles) et WhatsApp (Meta) lorsque vous nous écrivez par ce canal."
+        ]
+      },
+      {
+        "title": "Durée de conservation",
+        "paragraphs": [
+          "Les données liées aux commandes sont conservées 3 ans après votre dernière commande, puis supprimées.",
+          "Les messages de contact sont conservés 1 an."
+        ]
+      },
+      {
+        "title": "Vos droits",
+        "paragraphs": [
+          "Conformément à la loi n° 2019-014 du 29 octobre 2019 relative à la protection des données à caractère personnel au Togo, vous pouvez demander l'accès à vos données, leur correction ou leur suppression, et vous opposer à leur utilisation.",
+          "Pour exercer ces droits, écrivez-nous à {email}. Vous pouvez aussi saisir l'Instance de Protection des Données à caractère Personnel (IPDCP)."
+        ]
+      },
+      {
+        "title": "Sécurité",
+        "paragraphs": [
+          "Vos données sont transmises de façon sécurisée (HTTPS) et l'accès est limité aux personnes qui en ont besoin."
+        ]
+      },
+      {
+        "title": "Cookies et stockage",
+        "paragraphs": [
+          "Le site enregistre uniquement ce qui est nécessaire à son fonctionnement : votre langue et votre thème (clair ou sombre). Aucun cookie publicitaire n'est utilisé."
+        ]
+      },
+      {
+        "title": "Modifications",
+        "paragraphs": [
+          "Cette politique peut évoluer. La date de dernière mise à jour est indiquée en haut de cette page."
+        ]
+      }
+    ]
+  },
+  "Terms": {
+    "title": "Conditions générales",
+    "metaDescription": "Conditions générales d'utilisation et de vente du service de livraison Sob Livraison à Lomé.",
+    "updated": "Dernière mise à jour : 25 septembre 2026",
+    "sections": [
+      {
+        "title": "Objet",
+        "paragraphs": [
+          "Les présentes conditions encadrent l'utilisation du site Sob Livraison et la vente de nos services de livraison. Passer une commande implique leur acceptation."
+        ]
+      },
+      {
+        "title": "Services proposés",
+        "paragraphs": [
+          "Sob Livraison livre des colis et documents, des repas et des courses dans le Grand Lomé, en livraison immédiate ou programmée."
+        ]
+      },
+      {
+        "title": "Commande",
+        "paragraphs": [
+          "Les commandes se passent sur WhatsApp, puis bientôt directement sur le site. Vous devez fournir des informations exactes : points de départ et d'arrivée, taille de l'envoi, nom et téléphone du destinataire.",
+          "La commande est définitive après confirmation par Sob Livraison. Une livraison programmée doit être demandée au moins 1 heure à l'avance, et jusqu'à 7 jours."
+        ]
+      },
+      {
+        "title": "Prix",
+        "paragraphs": [
+          "Le prix est calculé selon la distance par la route : frais de prise en charge + prix par kilomètre, avec un prix minimum et un supplément selon la taille de l'envoi. Il est arrondi à la centaine de FCFA supérieure.",
+          "Le prix est communiqué avant la confirmation de la commande. Au-delà de 30 km, un devis spécifique est établi."
+        ]
+      },
+      {
+        "title": "Paiement",
+        "paragraphs": [
+          "Le paiement se fait en espèces, au livreur, à la livraison.",
+          "Pour les repas et les courses, les achats doivent être réglés par vos soins auprès du vendeur, sauf accord préalable avec Sob Livraison."
+        ]
+      },
+      {
+        "title": "Délais",
+        "paragraphs": [
+          "Les délais annoncés (30 à 60 minutes en moyenne pour une livraison immédiate) sont indicatifs et peuvent varier selon la circulation et la météo."
+        ]
+      },
+      {
+        "title": "Annulation",
+        "paragraphs": [
+          "L'annulation est gratuite tant que la commande n'a pas été confiée à un livreur. Après, contactez-nous rapidement : nous chercherons une solution ensemble."
+        ]
+      },
+      {
+        "title": "Vos engagements",
+        "paragraphs": [
+          "Vous et le destinataire devez être joignables par téléphone pendant la livraison. L'envoi doit être correctement emballé.",
+          "Il est interdit de confier à Sob Livraison des produits illégaux, dangereux ou inflammables, des armes, des animaux vivants ou des sommes d'argent importantes. Sob Livraison peut refuser tout envoi non conforme."
+        ]
+      },
+      {
+        "title": "Responsabilité",
+        "paragraphs": [
+          "Sob Livraison prend soin de vos envois. En cas de problème (retard important, dommage ou perte), contactez-nous au plus tard 24 heures après la livraison prévue : chaque situation sera étudiée pour trouver une solution.",
+          "Sob Livraison n'est pas responsable du contenu des envois, ni des retards dus à des événements indépendants de sa volonté (intempéries, routes fermées, etc.)."
+        ]
+      },
+      {
+        "title": "Données personnelles",
+        "paragraphs": [
+          "Vos données sont traitées conformément à notre politique de confidentialité."
+        ]
+      },
+      {
+        "title": "Droit applicable",
+        "paragraphs": [
+          "Ces conditions sont soumises au droit togolais. En cas de litige, nous chercherons d'abord une solution amiable ; à défaut, les tribunaux compétents de Lomé seront saisis.",
+          "Contact : {phone} — {email}"
+        ]
+      }
+    ]
+  },
   "ServicesPage": {
     "metaTitle": "Services et tarifs",
     "metaDescription": "Livraison de colis, repas et courses à Lomé. Prix selon la distance : 300 FCFA de prise en charge + 150 FCFA par km, minimum 500 FCFA.",
