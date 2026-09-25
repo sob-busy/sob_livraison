@@ -7,6 +7,7 @@ import { routing } from "@/i18n/routing";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
 import { SkipLink } from "@/components/layout/SkipLink";
+import { SplashScreen, splashScript } from "@/components/loading/SplashScreen";
 import { ThemeProvider } from "@/components/theme/ThemeProvider";
 import "../globals.css";
 
@@ -56,7 +57,11 @@ export default async function LocaleLayout({
       suppressHydrationWarning
       className={`${inter.variable} ${playfair.variable} h-full antialiased`}
     >
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: splashScript }} />
+      </head>
       <body className="min-h-full flex flex-col">
+        <SplashScreen />
         <ThemeProvider>
           <NextIntlClientProvider>
             <SkipLink />

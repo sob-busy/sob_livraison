@@ -46,6 +46,61 @@
   --font-heading: var(--font-playfair);
 }
 
+/* First-load splash screen (src/components/loading/SplashScreen.tsx) */
+.splash {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  background: var(--background);
+  pointer-events: none; /* never blocks the page */
+  animation: splash-out 0.3s ease-in 1.4s forwards;
+}
+
+.splash-track {
+  position: relative;
+  width: 100%;
+  height: 44px;
+  overflow: hidden;
+}
+
+.splash-moto {
+  position: absolute;
+  left: 0;
+  animation: splash-drive 1.3s ease-in-out forwards;
+}
+
+@keyframes splash-drive {
+  from {
+    transform: translateX(-90px);
+  }
+  to {
+    transform: translateX(calc(100vw + 10px));
+  }
+}
+
+@keyframes splash-out {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+/* Already seen in this session, or reduced motion requested: skip it */
+html[data-splash="seen"] .splash {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .splash {
+    display: none;
+  }
+}
+
 @layer base {
   body {
     background: var(--background);
