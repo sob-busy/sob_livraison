@@ -7,7 +7,7 @@ Règle : on ne passe à la tâche suivante que si la précédente fonctionne. Co
 - [x] Créer le projet Next.js (TypeScript, Tailwind, App Router, dossier src) — mettre `CLAUDE.md` et `docs/` de côté pendant l'installation, puis les remettre
 - [x] Créer le dépôt GitHub et faire le premier push
 - [x] Installer les dépendances (next-intl, next-themes, framer-motion, lucide-react, react-hook-form, zod)
-- [ ] Configurer les polices (Playfair Display + Inter) et les couleurs du thème
+- [x] Configurer les polices (Playfair Display + Inter) et les couleurs du thème
 - [ ] Créer `.env.example` et vérifier que `.env.local` est dans `.gitignore`
 - [ ] Ajouter favicon et logo (provisoires)
 
