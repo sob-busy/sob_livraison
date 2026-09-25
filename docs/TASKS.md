@@ -26,7 +26,7 @@ Règle : on ne passe à la tâche suivante que si la précédente fonctionne. Co
 - [x] Page 404 personnalisée
 - [x] SEO : métadonnées FR/EN, image de partage, sitemap, robots
 - [x] Installer Vercel Analytics
-- [ ] Vérification mobile de toute la Phase 1 (360 px clair et sombre : OK sur les 15 pages ; 768 px et 1280 px : à terminer)
+- [x] Vérification mobile de toute la Phase 1 (15 pages × 360/768/1024/1280 px × clair/sombre : OK)
 - [ ] Premier déploiement sur Vercel (adresse gratuite, pour les tests)
 
 ## Phase 2 — Comptes, devis et commandes

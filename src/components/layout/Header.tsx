@@ -15,7 +15,7 @@ export function Header() {
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-2 px-4 sm:gap-4">
         <Logo label={t("logoLabel")} className="h-8 w-auto sm:h-9" />
 
-        <nav aria-label={t("mainNav")} className="hidden md:block">
+        <nav aria-label={t("mainNav")} className="hidden lg:block">
           <ul className="flex items-center gap-1">
             {navItems.map((item) => (
               <li key={item.key}>

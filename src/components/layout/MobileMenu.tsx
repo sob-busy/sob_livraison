@@ -8,7 +8,7 @@ import { whatsappUrl } from "@/lib/contact";
 import { NavLink } from "./NavLink";
 import { navItems } from "./nav-items";
 
-// Hamburger button + drop-down panel, shown below the md breakpoint
+// Hamburger button + drop-down panel, shown below the lg breakpoint (1024px)
 export function MobileMenu() {
   const t = useTranslations("Navigation");
   const [open, setOpen] = useState(false);
@@ -25,7 +25,7 @@ export function MobileMenu() {
   }, [open]);
 
   return (
-    <div className="md:hidden">
+    <div className="lg:hidden">
       <button
         type="button"
         onClick={() => setOpen((value) => !value)}
