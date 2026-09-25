@@ -26,7 +26,7 @@ Règle : on ne passe à la tâche suivante que si la précédente fonctionne. Co
 - [x] Page 404 personnalisée
 - [x] SEO : métadonnées FR/EN, image de partage, sitemap, robots
 - [x] Installer Vercel Analytics
-- [ ] Vérification mobile de toute la Phase 1
+- [ ] Vérification mobile de toute la Phase 1 (360 px clair et sombre : OK sur les 15 pages ; 768 px et 1280 px : à terminer)
 - [ ] Premier déploiement sur Vercel (adresse gratuite, pour les tests)
 
 ## Phase 2 — Comptes, devis et commandes
@@ -47,6 +47,7 @@ Règle : on ne passe à la tâche suivante que si la précédente fonctionne. Co
 - [ ] Bouton « Commander » du header → formulaire de commande
 - [ ] États de chargement, liste vide et erreurs sur toutes les pages
 - [ ] Liens WhatsApp pré-remplis pour contacter Sob Livraison
+- [ ] Mettre à jour les textes qui disent « commandez sur WhatsApp » (FAQ q1, conditions générales, accueil)
 
 ## Phase 3 — Administration et livreurs
 - [ ] Tableau de bord admin : liste des commandes + filtres
