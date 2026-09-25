@@ -19,8 +19,10 @@ import { Link } from "@/i18n/navigation";
 import { CtaBanner } from "@/components/ui/CtaBanner";
 import { Reveal } from "@/components/ui/Reveal";
 import { buttonStyles } from "@/components/ui/button-styles";
-import { whatsappUrl } from "@/lib/contact";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { contactEmail, whatsappNumber, whatsappUrl } from "@/lib/contact";
 import { pageMetadata } from "@/lib/metadata";
+import { siteName, siteUrl } from "@/lib/site";
 
 export async function generateMetadata({ params }: PageProps<"/[locale]">) {
   const locale = (await params).locale as Locale;
@@ -64,9 +66,32 @@ export default function HomePage({ params }: PageProps<"/[locale]">) {
   const t = useTranslations("HomePage");
   const tNav = useTranslations("Navigation");
   const orderUrl = whatsappUrl(tNav("orderWhatsappMessage"));
+  const tMeta = useTranslations("Metadata");
+
+  // Local business card for Google (name, phone, area served)
+  const businessJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    name: siteName,
+    description: tMeta("description"),
+    url: `${siteUrl}/${locale}`,
+    logo: `${siteUrl}/logo.svg`,
+    telephone: `+${whatsappNumber}`,
+    email: contactEmail,
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Lomé",
+      addressCountry: "TG",
+    },
+    areaServed: { "@type": "City", name: "Lomé" },
+    openingHours: "Mo-Su 00:00-23:59",
+    currenciesAccepted: "XOF",
+    paymentAccepted: "Cash",
+  };
 
   return (
     <main className="flex flex-1 flex-col">
+      <JsonLd data={businessJsonLd} />
       {/* Hero */}
       <section className="bg-surface">
         <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 py-12 md:grid-cols-2 md:py-20">

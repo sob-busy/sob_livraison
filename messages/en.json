@@ -3,6 +3,10 @@
     "title": "Sob Livraison — Fast delivery in Lomé",
     "description": "Parcels, meals and groceries delivered across Lomé. Instant quote and cash on delivery."
   },
+  "OpenGraph": {
+    "headline": "Parcels, meals and groceries delivered fast in Lomé",
+    "footer": "Distance-based pricing · Cash on delivery · 7 days a week"
+  },
   "Navigation": {
     "skipToContent": "Skip to main content",
     "logoLabel": "Sob Livraison — back to home",

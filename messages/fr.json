@@ -3,6 +3,10 @@
     "title": "Sob Livraison — Livraison rapide à Lomé",
     "description": "Colis, repas et courses livrés partout à Lomé. Devis instantané et paiement à la livraison."
   },
+  "OpenGraph": {
+    "headline": "Colis, repas et courses livrés rapidement à Lomé",
+    "footer": "Prix selon la distance · Paiement à la livraison · 7j/7"
+  },
   "Navigation": {
     "skipToContent": "Aller au contenu principal",
     "logoLabel": "Sob Livraison — retour à l'accueil",

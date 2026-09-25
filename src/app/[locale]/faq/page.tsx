@@ -3,6 +3,7 @@ import type { Locale } from "next-intl";
 import { useTranslations } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ChevronDown } from "lucide-react";
+import { JsonLd } from "@/components/seo/JsonLd";
 import { CtaBanner } from "@/components/ui/CtaBanner";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { whatsappUrl } from "@/lib/contact";
@@ -40,12 +41,7 @@ export default function FaqPage({ params }: PageProps<"/[locale]/faq">) {
 
   return (
     <main className="flex flex-1 flex-col">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(faqJsonLd).replace(/</g, "\\u003c"),
-        }}
-      />
+      <JsonLd data={faqJsonLd} />
       <PageHeader title={t("title")} intro={t("intro")} />
 
       <section className="mx-auto w-full max-w-3xl px-4 py-14">
