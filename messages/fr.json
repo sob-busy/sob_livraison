@@ -120,6 +120,40 @@
       "button": "Commander maintenant"
     }
   },
+  "WhatsAppButton": {
+    "label": "Nous écrire sur WhatsApp",
+    "message": "Bonjour Sob Livraison, j'ai une question."
+  },
+  "ContactPage": {
+    "metaTitle": "Contact",
+    "metaDescription": "Contactez Sob Livraison sur WhatsApp, par téléphone ou par email. Livraison partout dans le Grand Lomé, 7j/7.",
+    "title": "Contactez-nous",
+    "intro": "Une question, une livraison à organiser ? Écrivez-nous ou appelez-nous, nous répondons rapidement.",
+    "whatsappMessage": "Bonjour Sob Livraison, j'ai une question.",
+    "whatsapp": {
+      "title": "WhatsApp",
+      "text": "Le plus rapide pour commander ou poser une question.",
+      "button": "Écrire sur WhatsApp"
+    },
+    "phone": {
+      "title": "Téléphone",
+      "text": "Appelez-nous directement pour une livraison urgente.",
+      "button": "Appeler"
+    },
+    "email": {
+      "title": "Email",
+      "text": "Pour les demandes détaillées ou les partenariats.",
+      "button": "Envoyer un email"
+    },
+    "zone": {
+      "title": "Zone couverte",
+      "text": "Tout le Grand Lomé. Au-delà de 30 km, demandez-nous un devis."
+    },
+    "hours": {
+      "title": "Disponibilité",
+      "text": "Commandes 7j/7, à toute heure, en livraison immédiate ou programmée."
+    }
+  },
   "ServicesPage": {
     "metaTitle": "Services et tarifs",
     "metaDescription": "Livraison de colis, repas et courses à Lomé. Prix selon la distance : 300 FCFA de prise en charge + 150 FCFA par km, minimum 500 FCFA.",

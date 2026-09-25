@@ -120,6 +120,40 @@
       "button": "Order now"
     }
   },
+  "WhatsAppButton": {
+    "label": "Message us on WhatsApp",
+    "message": "Hello Sob Livraison, I have a question."
+  },
+  "ContactPage": {
+    "metaTitle": "Contact",
+    "metaDescription": "Contact Sob Livraison on WhatsApp, by phone or by email. Delivery across Greater Lomé, 7 days a week.",
+    "title": "Contact us",
+    "intro": "A question or a delivery to arrange? Message or call us, we reply quickly.",
+    "whatsappMessage": "Hello Sob Livraison, I have a question.",
+    "whatsapp": {
+      "title": "WhatsApp",
+      "text": "The fastest way to order or ask a question.",
+      "button": "Message on WhatsApp"
+    },
+    "phone": {
+      "title": "Phone",
+      "text": "Call us directly for an urgent delivery.",
+      "button": "Call"
+    },
+    "email": {
+      "title": "Email",
+      "text": "For detailed requests or partnerships.",
+      "button": "Send an email"
+    },
+    "zone": {
+      "title": "Service area",
+      "text": "All of Greater Lomé. Beyond 30 km, ask us for a quote."
+    },
+    "hours": {
+      "title": "Availability",
+      "text": "Orders 7 days a week, any time, for immediate or scheduled delivery."
+    }
+  },
   "ServicesPage": {
     "metaTitle": "Services and prices",
     "metaDescription": "Parcel, meal and grocery delivery in Lomé. Distance-based pricing: 300 FCFA pick-up fee + 150 FCFA per km, minimum 500 FCFA.",
