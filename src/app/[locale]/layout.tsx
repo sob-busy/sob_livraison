@@ -7,6 +7,7 @@ import { routing } from "@/i18n/routing";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
 import { SkipLink } from "@/components/layout/SkipLink";
+import { WhatsAppButton } from "@/components/layout/WhatsAppButton";
 import { SplashScreen, splashScript } from "@/components/loading/SplashScreen";
 import { ThemeProvider } from "@/components/theme/ThemeProvider";
 import { siteName, siteUrl } from "@/lib/site";
@@ -77,6 +78,7 @@ export default async function LocaleLayout({
               {children}
             </div>
             <Footer />
+            <WhatsAppButton />
           </NextIntlClientProvider>
         </ThemeProvider>
       </body>

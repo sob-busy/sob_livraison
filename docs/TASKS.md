@@ -19,8 +19,8 @@ Règle : on ne passe à la tâche suivante que si la précédente fonctionne. Co
 - [x] Écran de chargement (moto animée)
 - [x] Page Accueil (hero, services, comment ça marche, appel à l'action)
 - [x] Page Services
-- [ ] Page Contact (WhatsApp + email ; le formulaire viendra en Phase 2)
-- [ ] Bouton WhatsApp flottant
+- [x] Page Contact (WhatsApp + email ; le formulaire viendra en Phase 2)
+- [x] Bouton WhatsApp flottant
 - [ ] Page FAQ
 - [ ] Pages légales (mentions légales, confidentialité, conditions générales) — version entrepreneur non immatriculé
 - [ ] Page 404 personnalisée

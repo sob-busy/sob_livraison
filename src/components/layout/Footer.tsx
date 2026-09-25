@@ -96,7 +96,8 @@ export function Footer() {
       </div>
 
       <div className="border-t border-border">
-        <p className="mx-auto max-w-6xl px-4 py-4 text-sm text-muted">
+        {/* Extra bottom space so the floating WhatsApp button never hides the text */}
+        <p className="mx-auto max-w-6xl px-4 pt-4 pb-24 text-sm text-muted sm:pb-4">
           {t("rights", { year })}
         </p>
       </div>
