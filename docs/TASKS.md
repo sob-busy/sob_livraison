@@ -21,9 +21,9 @@ Règle : on ne passe à la tâche suivante que si la précédente fonctionne. Co
 - [x] Page Services
 - [x] Page Contact (WhatsApp + email ; le formulaire viendra en Phase 2)
 - [x] Bouton WhatsApp flottant
-- [ ] Page FAQ
-- [ ] Pages légales (mentions légales, confidentialité, conditions générales) — version entrepreneur non immatriculé
-- [ ] Page 404 personnalisée
+- [x] Page FAQ
+- [x] Pages légales (mentions légales, confidentialité, conditions générales) — version entrepreneur non immatriculé
+- [x] Page 404 personnalisée
 - [ ] SEO : métadonnées FR/EN, image de partage, sitemap, robots
 - [ ] Installer Vercel Analytics
 - [ ] Vérification mobile de toute la Phase 1
