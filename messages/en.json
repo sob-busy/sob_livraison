@@ -17,6 +17,11 @@
     "order": "Order now",
     "orderWhatsappMessage": "Hello Sob Livraison, I would like to place a delivery order."
   },
+  "LocaleSwitcher": {
+    "label": "Choose language",
+    "fr": "Français",
+    "en": "English"
+  },
   "Footer": {
     "tagline": "Parcels, meals and groceries delivered fast across Lomé.",
     "navTitle": "Navigation",

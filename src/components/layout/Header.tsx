@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
 import { whatsappUrl } from "@/lib/contact";
+import { LocaleSwitcher } from "./LocaleSwitcher";
 import { Logo } from "./Logo";
 import { MobileMenu } from "./MobileMenu";
 import { NavLink } from "./NavLink";
@@ -10,8 +11,8 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-40 border-b border-border bg-background/95 backdrop-blur">
-      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-4">
-        <Logo label={t("logoLabel")} />
+      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-2 px-4 sm:gap-4">
+        <Logo label={t("logoLabel")} className="h-8 w-auto sm:h-9" />
 
         <nav aria-label={t("mainNav")} className="hidden md:block">
           <ul className="flex items-center gap-1">
@@ -29,6 +30,7 @@ export function Header() {
         </nav>
 
         <div className="flex items-center gap-2">
+          <LocaleSwitcher />
           {/* Phase 1: ordering goes through WhatsApp (order form in Phase 2) */}
           <a
             href={whatsappUrl(t("orderWhatsappMessage"))}

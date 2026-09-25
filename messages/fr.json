@@ -17,6 +17,11 @@
     "order": "Commander",
     "orderWhatsappMessage": "Bonjour Sob Livraison, je souhaite passer une commande de livraison."
   },
+  "LocaleSwitcher": {
+    "label": "Choisir la langue",
+    "fr": "Français",
+    "en": "English"
+  },
   "Footer": {
     "tagline": "Colis, repas et courses livrés rapidement partout à Lomé.",
     "navTitle": "Navigation",
