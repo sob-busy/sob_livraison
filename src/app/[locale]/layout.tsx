@@ -2,7 +2,11 @@ import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
-import { getTranslations, setRequestLocale } from "next-intl/server";
+import {
+  getMessages,
+  getTranslations,
+  setRequestLocale,
+} from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
@@ -54,6 +58,15 @@ export default async function LocaleLayout({
   // Enables static rendering for this locale
   setRequestLocale(locale);
 
+  // Only send to the browser the texts used by client components
+  // (keeps pages light on slow connections)
+  const messages = await getMessages();
+  const clientMessages = {
+    Navigation: messages.Navigation,
+    LocaleSwitcher: messages.LocaleSwitcher,
+    ThemeToggle: messages.ThemeToggle,
+  };
+
   return (
     // suppressHydrationWarning: next-themes sets the theme class before React loads
     <html
@@ -67,7 +80,7 @@ export default async function LocaleLayout({
       <body className="min-h-full flex flex-col">
         <SplashScreen />
         <ThemeProvider>
-          <NextIntlClientProvider>
+          <NextIntlClientProvider messages={clientMessages}>
             <SkipLink />
             <Header />
             <div
