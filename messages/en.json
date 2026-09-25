@@ -3,6 +3,34 @@
     "title": "Sob Livraison — Fast delivery in Lomé",
     "description": "Parcels, meals and groceries delivered across Lomé. Instant quote and cash on delivery."
   },
+  "Navigation": {
+    "skipToContent": "Skip to main content",
+    "logoLabel": "Sob Livraison — back to home",
+    "mainNav": "Main navigation",
+    "mobileNav": "Mobile menu",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "home": "Home",
+    "services": "Services",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "order": "Order now",
+    "orderWhatsappMessage": "Hello Sob Livraison, I would like to place a delivery order."
+  },
+  "Footer": {
+    "tagline": "Parcels, meals and groceries delivered fast across Lomé.",
+    "navTitle": "Navigation",
+    "legalTitle": "Legal information",
+    "contactTitle": "Contact",
+    "legalNotice": "Legal notice",
+    "privacy": "Privacy policy",
+    "terms": "Terms and conditions",
+    "whatsapp": "WhatsApp:",
+    "email": "Email:",
+    "zone": "Greater Lomé",
+    "availability": "Orders 7 days a week, any time",
+    "rights": "© {year} Sob Livraison. All rights reserved."
+  },
   "HomePage": {
     "title": "Sob Livraison",
     "comingSoon": "Our website is coming soon."

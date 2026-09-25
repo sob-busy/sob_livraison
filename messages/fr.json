@@ -3,6 +3,34 @@
     "title": "Sob Livraison — Livraison rapide à Lomé",
     "description": "Colis, repas et courses livrés partout à Lomé. Devis instantané et paiement à la livraison."
   },
+  "Navigation": {
+    "skipToContent": "Aller au contenu principal",
+    "logoLabel": "Sob Livraison — retour à l'accueil",
+    "mainNav": "Navigation principale",
+    "mobileNav": "Menu mobile",
+    "menuOpen": "Ouvrir le menu",
+    "menuClose": "Fermer le menu",
+    "home": "Accueil",
+    "services": "Services",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "order": "Commander",
+    "orderWhatsappMessage": "Bonjour Sob Livraison, je souhaite passer une commande de livraison."
+  },
+  "Footer": {
+    "tagline": "Colis, repas et courses livrés rapidement partout à Lomé.",
+    "navTitle": "Navigation",
+    "legalTitle": "Informations légales",
+    "contactTitle": "Contact",
+    "legalNotice": "Mentions légales",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions générales",
+    "whatsapp": "WhatsApp :",
+    "email": "Email :",
+    "zone": "Grand Lomé",
+    "availability": "Commandes 7j/7, à toute heure",
+    "rights": "© {year} Sob Livraison. Tous droits réservés."
+  },
   "HomePage": {
     "title": "Sob Livraison",
     "comingSoon": "Notre site arrive bientôt."
