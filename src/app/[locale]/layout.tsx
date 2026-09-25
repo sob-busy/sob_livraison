@@ -9,6 +9,7 @@ import { Header } from "@/components/layout/Header";
 import { SkipLink } from "@/components/layout/SkipLink";
 import { SplashScreen, splashScript } from "@/components/loading/SplashScreen";
 import { ThemeProvider } from "@/components/theme/ThemeProvider";
+import { siteName, siteUrl } from "@/lib/site";
 import "../globals.css";
 
 // Body text: readable on small screens
@@ -35,8 +36,10 @@ export async function generateMetadata({
 
   const t = await getTranslations({ locale, namespace: "Metadata" });
   return {
-    title: t("title"),
+    metadataBase: new URL(siteUrl),
+    title: { default: t("title"), template: `%s | ${siteName}` },
     description: t("description"),
+    applicationName: siteName,
   };
 }
 

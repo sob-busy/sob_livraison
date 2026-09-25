@@ -41,7 +41,83 @@
     "rights": "© {year} Sob Livraison. All rights reserved."
   },
   "HomePage": {
-    "title": "Sob Livraison",
-    "comingSoon": "Our website is coming soon."
+    "hero": {
+      "eyebrow": "Delivery in Lomé, 7 days a week",
+      "title": "Your parcels, meals and groceries delivered fast in Lomé",
+      "subtitle": "A clear price based on distance, a trusted courier, and you pay cash on delivery.",
+      "ctaPrimary": "Order on WhatsApp",
+      "ctaSecondary": "See our services",
+      "highlight1": "Delivered in 30 to 60 min",
+      "highlight2": "Cash on delivery",
+      "highlight3": "All of Greater Lomé"
+    },
+    "quote": {
+      "label": "Sample quote",
+      "item": "Medium parcel",
+      "details": "6 km by road",
+      "base": { "label": "Pick-up fee", "value": "300 FCFA" },
+      "distance": { "label": "6 km × 150 FCFA", "value": "900 FCFA" },
+      "size": { "label": "Medium size", "value": "+ 200 FCFA" },
+      "total": "Total",
+      "price": "1,400 FCFA",
+      "note": "Paid in cash on delivery"
+    },
+    "services": {
+      "title": "What we deliver",
+      "subtitle": "One service for everything you need delivered across Lomé.",
+      "parcel": {
+        "title": "Parcels and documents",
+        "text": "Packages, envelopes, important papers: picked up and handed over in person."
+      },
+      "meal": {
+        "title": "Meals",
+        "text": "Your favourite dishes picked up at the restaurant and delivered still hot."
+      },
+      "groceries": {
+        "title": "Groceries",
+        "text": "Market or supermarket: we pick up your shopping and bring it to you."
+      },
+      "more": "See our services and prices"
+    },
+    "steps": {
+      "title": "How it works",
+      "subtitle": "Three simple steps, from your phone.",
+      "step1": {
+        "title": "Tell us the route",
+        "text": "Give us the pick-up point, the drop-off point and the size of your item."
+      },
+      "step2": {
+        "title": "Get your price",
+        "text": "The price is based on the road distance. No surprises."
+      },
+      "step3": {
+        "title": "We handle the rest",
+        "text": "A courier picks up and delivers your item. You pay cash on delivery."
+      }
+    },
+    "why": {
+      "title": "Why choose Sob Livraison",
+      "fast": {
+        "title": "Fast",
+        "text": "Usually delivered in 30 to 60 minutes, depending on distance."
+      },
+      "price": {
+        "title": "Transparent pricing",
+        "text": "Based on distance, starting from 500 FCFA."
+      },
+      "cash": {
+        "title": "Cash on delivery",
+        "text": "You pay in cash once the delivery is done."
+      },
+      "available": {
+        "title": "Available 7 days a week",
+        "text": "Order any time, for immediate or scheduled delivery."
+      }
+    },
+    "cta": {
+      "title": "Something to deliver?",
+      "text": "Message us on WhatsApp, we reply quickly.",
+      "button": "Order now"
+    }
   }
 }

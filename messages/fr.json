@@ -41,7 +41,83 @@
     "rights": "© {year} Sob Livraison. Tous droits réservés."
   },
   "HomePage": {
-    "title": "Sob Livraison",
-    "comingSoon": "Notre site arrive bientôt."
+    "hero": {
+      "eyebrow": "Livraison à Lomé, 7j/7",
+      "title": "Vos colis, repas et courses livrés rapidement à Lomé",
+      "subtitle": "Un prix clair calculé selon la distance, un livreur de confiance, et vous payez en espèces à la livraison.",
+      "ctaPrimary": "Commander sur WhatsApp",
+      "ctaSecondary": "Voir nos services",
+      "highlight1": "Livré en 30 à 60 min",
+      "highlight2": "Paiement à la livraison",
+      "highlight3": "Tout le Grand Lomé"
+    },
+    "quote": {
+      "label": "Exemple de devis",
+      "item": "Colis moyen",
+      "details": "6 km par la route",
+      "base": { "label": "Prise en charge", "value": "300 FCFA" },
+      "distance": { "label": "6 km × 150 FCFA", "value": "900 FCFA" },
+      "size": { "label": "Taille moyenne", "value": "+ 200 FCFA" },
+      "total": "Total",
+      "price": "1 400 FCFA",
+      "note": "Payé en espèces à la livraison"
+    },
+    "services": {
+      "title": "Ce que nous livrons",
+      "subtitle": "Un seul service pour tout ce que vous avez besoin de faire livrer dans Lomé.",
+      "parcel": {
+        "title": "Colis et documents",
+        "text": "Paquets, enveloppes, papiers importants : récupérés et remis en main propre."
+      },
+      "meal": {
+        "title": "Repas",
+        "text": "Vos plats préférés récupérés au restaurant et livrés encore chauds."
+      },
+      "groceries": {
+        "title": "Courses",
+        "text": "Marché ou supermarché : nous récupérons vos achats et vous les apportons."
+      },
+      "more": "Découvrir nos services et tarifs"
+    },
+    "steps": {
+      "title": "Comment ça marche",
+      "subtitle": "Trois étapes simples, depuis votre téléphone.",
+      "step1": {
+        "title": "Indiquez le trajet",
+        "text": "Donnez-nous le point de départ, le point d'arrivée et la taille de votre envoi."
+      },
+      "step2": {
+        "title": "Recevez votre prix",
+        "text": "Le prix est calculé selon la distance par la route. Pas de surprise."
+      },
+      "step3": {
+        "title": "On s'occupe du reste",
+        "text": "Un livreur récupère et livre votre envoi. Vous payez en espèces à la livraison."
+      }
+    },
+    "why": {
+      "title": "Pourquoi choisir Sob Livraison",
+      "fast": {
+        "title": "Rapide",
+        "text": "En général livré en 30 à 60 minutes, selon la distance."
+      },
+      "price": {
+        "title": "Prix transparent",
+        "text": "Calculé selon la distance, à partir de 500 FCFA."
+      },
+      "cash": {
+        "title": "Paiement à la livraison",
+        "text": "Vous payez en espèces, une fois la livraison effectuée."
+      },
+      "available": {
+        "title": "Disponible 7j/7",
+        "text": "Commandez à toute heure, en livraison immédiate ou programmée."
+      }
+    },
+    "cta": {
+      "title": "Quelque chose à faire livrer ?",
+      "text": "Écrivez-nous sur WhatsApp, nous vous répondons rapidement.",
+      "button": "Commander maintenant"
+    }
   }
 }
