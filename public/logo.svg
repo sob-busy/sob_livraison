@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 48" width="250" height="48">
+  <!-- Provisional logo, light theme -->
+  <rect width="48" height="48" rx="11" fill="#0B2545"/>
+  <rect x="4.5" y="18" width="9" height="2.6" rx="1.3" fill="#F2A900" opacity="0.6"/>
+  <rect x="6.75" y="26.25" width="6.75" height="2.6" rx="1.3" fill="#F2A900" opacity="0.6"/>
+  <text x="28.5" y="35.25" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="33" font-weight="700" fill="#F2A900">S</text>
+  <text x="60" y="32" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700" fill="#0B2545">Sob <tspan fill="#F2A900">Livraison</tspan></text>
+</svg>
