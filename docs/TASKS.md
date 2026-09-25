@@ -18,7 +18,7 @@ Règle : on ne passe à la tâche suivante que si la précédente fonctionne. Co
 - [x] Sélecteur de thème clair/sombre
 - [x] Écran de chargement (moto animée)
 - [x] Page Accueil (hero, services, comment ça marche, appel à l'action)
-- [ ] Page Services
+- [x] Page Services
 - [ ] Page Contact (WhatsApp + email ; le formulaire viendra en Phase 2)
 - [ ] Bouton WhatsApp flottant
 - [ ] Page FAQ

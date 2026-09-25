@@ -16,6 +16,7 @@ import {
   UtensilsCrossed,
 } from "lucide-react";
 import { Link } from "@/i18n/navigation";
+import { CtaBanner } from "@/components/ui/CtaBanner";
 import { Reveal } from "@/components/ui/Reveal";
 import { buttonStyles } from "@/components/ui/button-styles";
 import { whatsappUrl } from "@/lib/contact";
@@ -221,25 +222,12 @@ export default function HomePage({ params }: PageProps<"/[locale]">) {
       </section>
 
       {/* Final call to action */}
-      <section className="bg-primary">
-        <Reveal className="mx-auto flex max-w-6xl flex-col items-start gap-6 px-4 py-14 md:flex-row md:items-center md:justify-between">
-          <div>
-            <h2 className="text-3xl font-bold text-background">
-              {t("cta.title")}
-            </h2>
-            <p className="mt-2 text-lg text-background/80">{t("cta.text")}</p>
-          </div>
-          <a
-            href={orderUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={`${buttonStyles.primary} w-full shrink-0 sm:w-auto`}
-          >
-            {t("cta.button")}
-            <ArrowRight aria-hidden className="size-5" />
-          </a>
-        </Reveal>
-      </section>
+      <CtaBanner
+        title={t("cta.title")}
+        text={t("cta.text")}
+        buttonLabel={t("cta.button")}
+        href={orderUrl}
+      />
     </main>
   );
 }

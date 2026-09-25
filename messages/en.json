@@ -119,5 +119,86 @@
       "text": "Message us on WhatsApp, we reply quickly.",
       "button": "Order now"
     }
+  },
+  "ServicesPage": {
+    "metaTitle": "Services and prices",
+    "metaDescription": "Parcel, meal and grocery delivery in Lomé. Distance-based pricing: 300 FCFA pick-up fee + 150 FCFA per km, minimum 500 FCFA.",
+    "title": "Our services and prices",
+    "intro": "Parcels, meals or groceries: we deliver across Greater Lomé, with a price based on the road distance.",
+    "categories": {
+      "title": "What we deliver",
+      "parcel": {
+        "title": "Parcels and documents",
+        "text": "Your items picked up and handed over in person to the recipient.",
+        "ex1": "Packages and boxes",
+        "ex2": "Envelopes and important documents",
+        "ex3": "Forgotten items, keys, phones"
+      },
+      "meal": {
+        "title": "Meals",
+        "text": "We pick up your order at the restaurant and bring it to you quickly.",
+        "ex1": "Dishes from restaurants and maquis",
+        "ex2": "Home-made meals for a loved one",
+        "ex3": "Cakes and special orders"
+      },
+      "groceries": {
+        "title": "Groceries",
+        "text": "We pick up your already-paid shopping and deliver it to you.",
+        "ex1": "Market shopping",
+        "ex2": "Supermarket shopping",
+        "ex3": "Pharmacy and small purchases"
+      }
+    },
+    "pricing": {
+      "title": "Our prices",
+      "intro": "The price depends on the road distance between pick-up and drop-off. It is rounded up to the next 100 FCFA.",
+      "base": { "label": "Pick-up fee", "value": "300 FCFA" },
+      "perKm": { "label": "Per kilometre", "value": "150 FCFA" },
+      "minimum": { "label": "Minimum price", "value": "500 FCFA" },
+      "maxDistance": { "label": "Maximum distance", "value": "30 km" },
+      "maxNote": "Beyond 30 km, ask us for a quote on WhatsApp.",
+      "examplesTitle": "Price examples",
+      "ex1": { "label": "2 km, small parcel", "calc": "300 + 2 × 150", "price": "600 FCFA" },
+      "ex2": { "label": "6 km, medium parcel", "calc": "300 + 6 × 150 + 200", "price": "1,400 FCFA" },
+      "ex3": { "label": "12 km, large parcel", "calc": "300 + 12 × 150 + 500", "price": "2,600 FCFA" },
+      "note": "Cash payment on delivery."
+    },
+    "sizes": {
+      "title": "Item sizes",
+      "intro": "The size of your item adds a small surcharge.",
+      "small": { "title": "Small", "text": "Envelope, small bag, one meal", "price": "Included" },
+      "medium": { "title": "Medium", "text": "Bag, medium box", "price": "+ 200 FCFA" },
+      "large": { "title": "Large", "text": "Big box, several bags", "price": "+ 500 FCFA" }
+    },
+    "delays": {
+      "title": "Delivery times",
+      "immediate": {
+        "title": "Immediate delivery",
+        "text": "Estimated 30 to 60 minutes, depending on distance."
+      },
+      "scheduled": {
+        "title": "Scheduled delivery",
+        "text": "Pick the date and time: at least 1 hour ahead, up to 7 days."
+      },
+      "reachable": {
+        "title": "Stay reachable",
+        "text": "You and the recipient must be reachable by phone during the delivery."
+      }
+    },
+    "forbidden": {
+      "title": "Prohibited items",
+      "intro": "For everyone's safety, we do not carry:",
+      "i1": "Illegal products",
+      "i2": "Dangerous or flammable products",
+      "i3": "Weapons",
+      "i4": "Live animals",
+      "i5": "Large sums of money"
+    },
+    "cta": {
+      "title": "Need a delivery?",
+      "text": "Send us your route on WhatsApp and we'll give you the price right away.",
+      "button": "Get a price",
+      "whatsappMessage": "Hello Sob Livraison, I'd like to know the price of a delivery. Pick-up: … Drop-off: … Size: …"
+    }
   }
 }

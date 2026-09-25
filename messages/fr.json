@@ -119,5 +119,86 @@
       "text": "Écrivez-nous sur WhatsApp, nous vous répondons rapidement.",
       "button": "Commander maintenant"
     }
+  },
+  "ServicesPage": {
+    "metaTitle": "Services et tarifs",
+    "metaDescription": "Livraison de colis, repas et courses à Lomé. Prix selon la distance : 300 FCFA de prise en charge + 150 FCFA par km, minimum 500 FCFA.",
+    "title": "Nos services et tarifs",
+    "intro": "Colis, repas ou courses : nous livrons partout dans le Grand Lomé, avec un prix calculé selon la distance par la route.",
+    "categories": {
+      "title": "Ce que nous livrons",
+      "parcel": {
+        "title": "Colis et documents",
+        "text": "Vos envois récupérés et remis en main propre au destinataire.",
+        "ex1": "Paquets et cartons",
+        "ex2": "Enveloppes et documents importants",
+        "ex3": "Objets oubliés, clés, téléphones"
+      },
+      "meal": {
+        "title": "Repas",
+        "text": "Nous récupérons votre commande au restaurant et vous l'apportons rapidement.",
+        "ex1": "Plats des restaurants et maquis",
+        "ex2": "Repas faits maison pour un proche",
+        "ex3": "Gâteaux et commandes spéciales"
+      },
+      "groceries": {
+        "title": "Courses",
+        "text": "Nous récupérons vos achats déjà payés et vous les livrons.",
+        "ex1": "Achats au marché",
+        "ex2": "Courses au supermarché",
+        "ex3": "Pharmacie et petits achats"
+      }
+    },
+    "pricing": {
+      "title": "Nos tarifs",
+      "intro": "Le prix dépend de la distance par la route entre le départ et l'arrivée. Il est arrondi à la centaine de FCFA supérieure.",
+      "base": { "label": "Prise en charge", "value": "300 FCFA" },
+      "perKm": { "label": "Par kilomètre", "value": "150 FCFA" },
+      "minimum": { "label": "Prix minimum", "value": "500 FCFA" },
+      "maxDistance": { "label": "Distance maximum", "value": "30 km" },
+      "maxNote": "Au-delà de 30 km, demandez-nous un devis sur WhatsApp.",
+      "examplesTitle": "Exemples de prix",
+      "ex1": { "label": "2 km, petit colis", "calc": "300 + 2 × 150", "price": "600 FCFA" },
+      "ex2": { "label": "6 km, colis moyen", "calc": "300 + 6 × 150 + 200", "price": "1 400 FCFA" },
+      "ex3": { "label": "12 km, grand colis", "calc": "300 + 12 × 150 + 500", "price": "2 600 FCFA" },
+      "note": "Paiement en espèces à la livraison."
+    },
+    "sizes": {
+      "title": "Tailles d'envoi",
+      "intro": "La taille de votre envoi ajoute un petit supplément.",
+      "small": { "title": "Petit", "text": "Enveloppe, petit sac, un repas", "price": "Inclus" },
+      "medium": { "title": "Moyen", "text": "Sac, carton moyen", "price": "+ 200 FCFA" },
+      "large": { "title": "Grand", "text": "Gros carton, plusieurs sacs", "price": "+ 500 FCFA" }
+    },
+    "delays": {
+      "title": "Délais de livraison",
+      "immediate": {
+        "title": "Livraison immédiate",
+        "text": "Délai indicatif de 30 à 60 minutes, selon la distance."
+      },
+      "scheduled": {
+        "title": "Livraison programmée",
+        "text": "Choisissez la date et l'heure : au moins 1 heure à l'avance, jusqu'à 7 jours."
+      },
+      "reachable": {
+        "title": "Restez joignable",
+        "text": "Vous et le destinataire devez être joignables par téléphone pendant la livraison."
+      }
+    },
+    "forbidden": {
+      "title": "Objets interdits",
+      "intro": "Pour la sécurité de tous, nous ne transportons pas :",
+      "i1": "Produits illégaux",
+      "i2": "Produits dangereux ou inflammables",
+      "i3": "Armes",
+      "i4": "Animaux vivants",
+      "i5": "Sommes d'argent importantes"
+    },
+    "cta": {
+      "title": "Besoin d'une livraison ?",
+      "text": "Envoyez-nous votre trajet sur WhatsApp, nous vous donnons le prix tout de suite.",
+      "button": "Demander un prix",
+      "whatsappMessage": "Bonjour Sob Livraison, je voudrais connaître le prix d'une livraison. Départ : … Arrivée : … Taille : …"
+    }
   }
 }
