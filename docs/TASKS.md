@@ -24,8 +24,8 @@ Règle : on ne passe à la tâche suivante que si la précédente fonctionne. Co
 - [x] Page FAQ
 - [x] Pages légales (mentions légales, confidentialité, conditions générales) — version entrepreneur non immatriculé
 - [x] Page 404 personnalisée
-- [ ] SEO : métadonnées FR/EN, image de partage, sitemap, robots
-- [ ] Installer Vercel Analytics
+- [x] SEO : métadonnées FR/EN, image de partage, sitemap, robots
+- [x] Installer Vercel Analytics
 - [ ] Vérification mobile de toute la Phase 1
 - [ ] Premier déploiement sur Vercel (adresse gratuite, pour les tests)
 

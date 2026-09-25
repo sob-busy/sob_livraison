@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import { notFound } from "next/navigation";
+import { Analytics } from "@vercel/analytics/next";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import {
   getMessages,
@@ -92,6 +93,8 @@ export default async function LocaleLayout({
             </div>
             <Footer />
             <WhatsAppButton />
+            {/* Visit statistics, only active once deployed on Vercel */}
+            <Analytics />
           </NextIntlClientProvider>
         </ThemeProvider>
       </body>
