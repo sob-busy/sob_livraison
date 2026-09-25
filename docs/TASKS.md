@@ -15,7 +15,7 @@ Règle : on ne passe à la tâche suivante que si la précédente fonctionne. Co
 - [x] Configurer next-intl (routes /fr et /en, adresses traduites, fichiers de traduction)
 - [x] Header + footer + menu mobile (bouton « Commander » → WhatsApp pour l'instant)
 - [x] Sélecteur de langue
-- [ ] Sélecteur de thème clair/sombre
+- [x] Sélecteur de thème clair/sombre
 - [ ] Écran de chargement (moto animée)
 - [ ] Page Accueil (hero, services, comment ça marche, appel à l'action)
 - [ ] Page Services

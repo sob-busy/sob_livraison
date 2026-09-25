@@ -14,6 +14,7 @@
     "services": "Services",
     "faq": "FAQ",
     "contact": "Contact",
+    "theme": "Thème",
     "order": "Commander",
     "orderWhatsappMessage": "Bonjour Sob Livraison, je souhaite passer une commande de livraison."
   },
@@ -21,6 +22,9 @@
     "label": "Choisir la langue",
     "fr": "Français",
     "en": "English"
+  },
+  "ThemeToggle": {
+    "label": "Changer le thème (clair / sombre)"
   },
   "Footer": {
     "tagline": "Colis, repas et courses livrés rapidement partout à Lomé.",

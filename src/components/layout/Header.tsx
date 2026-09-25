@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import { ThemeToggle } from "@/components/theme/ThemeToggle";
 import { whatsappUrl } from "@/lib/contact";
 import { LocaleSwitcher } from "./LocaleSwitcher";
 import { Logo } from "./Logo";
@@ -31,6 +32,8 @@ export function Header() {
 
         <div className="flex items-center gap-2">
           <LocaleSwitcher />
+          {/* On phones the theme toggle lives in the mobile menu */}
+          <ThemeToggle className="hidden sm:inline-flex" />
           {/* Phase 1: ordering goes through WhatsApp (order form in Phase 2) */}
           <a
             href={whatsappUrl(t("orderWhatsappMessage"))}

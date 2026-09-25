@@ -3,6 +3,7 @@
 import { useEffect, useId, useState } from "react";
 import { Menu, X } from "lucide-react";
 import { useTranslations } from "next-intl";
+import { ThemeToggle } from "@/components/theme/ThemeToggle";
 import { whatsappUrl } from "@/lib/contact";
 import { NavLink } from "./NavLink";
 import { navItems } from "./nav-items";
@@ -59,6 +60,10 @@ export function MobileMenu() {
               </li>
             ))}
           </ul>
+          <div className="mt-2 flex min-h-12 items-center justify-between rounded-xl px-3">
+            <span className="text-lg">{t("theme")}</span>
+            <ThemeToggle />
+          </div>
           <a
             href={whatsappUrl(t("orderWhatsappMessage"))}
             target="_blank"

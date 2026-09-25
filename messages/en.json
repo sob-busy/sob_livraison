@@ -14,6 +14,7 @@
     "services": "Services",
     "faq": "FAQ",
     "contact": "Contact",
+    "theme": "Theme",
     "order": "Order now",
     "orderWhatsappMessage": "Hello Sob Livraison, I would like to place a delivery order."
   },
@@ -21,6 +22,9 @@
     "label": "Choose language",
     "fr": "Français",
     "en": "English"
+  },
+  "ThemeToggle": {
+    "label": "Switch theme (light / dark)"
   },
   "Footer": {
     "tagline": "Parcels, meals and groceries delivered fast across Lomé.",

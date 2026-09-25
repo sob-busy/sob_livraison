@@ -7,6 +7,7 @@ import { routing } from "@/i18n/routing";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
 import { SkipLink } from "@/components/layout/SkipLink";
+import { ThemeProvider } from "@/components/theme/ThemeProvider";
 import "../globals.css";
 
 // Body text: readable on small screens
@@ -49,23 +50,27 @@ export default async function LocaleLayout({
   setRequestLocale(locale);
 
   return (
+    // suppressHydrationWarning: next-themes sets the theme class before React loads
     <html
       lang={locale}
+      suppressHydrationWarning
       className={`${inter.variable} ${playfair.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <NextIntlClientProvider>
-          <SkipLink />
-          <Header />
-          <div
-            id="main-content"
-            tabIndex={-1}
-            className="flex flex-1 flex-col outline-none"
-          >
-            {children}
-          </div>
-          <Footer />
-        </NextIntlClientProvider>
+        <ThemeProvider>
+          <NextIntlClientProvider>
+            <SkipLink />
+            <Header />
+            <div
+              id="main-content"
+              tabIndex={-1}
+              className="flex flex-1 flex-col outline-none"
+            >
+              {children}
+            </div>
+            <Footer />
+          </NextIntlClientProvider>
+        </ThemeProvider>
       </body>
     </html>
   );
