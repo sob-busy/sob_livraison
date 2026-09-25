@@ -12,7 +12,7 @@ Règle : on ne passe à la tâche suivante que si la précédente fonctionne. Co
 - [x] Ajouter favicon et logo (provisoires)
 
 ## Phase 1 — Site public
-- [ ] Configurer next-intl (routes /fr et /en, adresses traduites, fichiers de traduction)
+- [x] Configurer next-intl (routes /fr et /en, adresses traduites, fichiers de traduction)
 - [ ] Header + footer + menu mobile (bouton « Commander » → WhatsApp pour l'instant)
 - [ ] Sélecteur de langue
 - [ ] Sélecteur de thème clair/sombre
