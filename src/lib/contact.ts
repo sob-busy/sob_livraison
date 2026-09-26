@@ -1,6 +1,24 @@
-// Public contact details, read from environment variables (see .env.example)
-export const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "";
-export const contactEmail = process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "";
+// Stops the build if a contact variable is missing, instead of
+// publishing a site with empty WhatsApp / email links
+function required(value: string | undefined, name: string): string {
+  if (!value) {
+    throw new Error(
+      `Missing environment variable ${name}. Add it to .env.local (locally) or to the Vercel project settings, then rebuild.`,
+    );
+  }
+  return value;
+}
+
+// Public contact details, read from environment variables (see .env.example).
+// NEXT_PUBLIC_* values are written into the site at build time.
+export const whatsappNumber = required(
+  process.env.NEXT_PUBLIC_WHATSAPP_NUMBER,
+  "NEXT_PUBLIC_WHATSAPP_NUMBER",
+);
+export const contactEmail = required(
+  process.env.NEXT_PUBLIC_CONTACT_EMAIL,
+  "NEXT_PUBLIC_CONTACT_EMAIL",
+);
 
 // wa.me link, optionally with a pre-filled message
 export function whatsappUrl(message?: string): string {
